@@ -1,0 +1,40 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 0,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1705484355523,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " dosyalar yüklendi mi?",
+          "status": "failed",
+          "title": "dosyalar yüklendi mi?",
+          "duration": 5,
+          "failureMessages": [
+            "expected 1 to be +0 // Object.is equality"
+          ],
+          "location": {
+            "line": 4,
+            "column": 13
+          }
+        }
+      ],
+      "startTime": 1705484377766,
+      "endTime": 1705484377771,
+      "status": "failed",
+      "message": "",
+      "name": "/home/projects/vitejs-vite-zziwh3/src/__tests__/index.test.jsx"
+    }
+  ]
+}
