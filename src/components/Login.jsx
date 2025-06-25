@@ -59,7 +59,7 @@ export default function Login() {
                     onChange={handleChange}
                     value={form.email}
                     data-testid="email-input"
-                    autoFocus={true}
+                    autoFocus={localStorage.getItem("email") ? false : true}
                 />
             </FormGroup>
             <FormGroup>
@@ -72,6 +72,7 @@ export default function Login() {
                     onChange={handleChange}
                     value={form.password}
                     data-testid="password-input"
+                    autoFocus={localStorage.getItem("email") ? true : false}
                 />
             </FormGroup>
             <FormGroup className="text-center p-4">
