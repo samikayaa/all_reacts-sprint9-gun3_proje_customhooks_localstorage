@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
-
 import Charts from './components/Charts';
 import Navbar from './components/Navbar';
 import { data } from './data.js';
+import { useDarkMode } from './hooks/useDarkMode.jsx';
 
 
 const App = () => {
     const [coinData, setCoinData] = useState(data);
-    const [geceModu, setGeceModu] = useState(false);
+    const [geceModu, setGeceModu] = useDarkMode(false); //useState(false);
 
 
     return (
